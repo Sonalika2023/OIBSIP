@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", sans-serif;
+}
+
+body {
+    background: #0e0f14;
+    color: #fff;
+}
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 80px;
+    align-items: center;
+}
+
+.logo {
+    color: #f6b73c;
+    font-size: 24px;
+}
+
+nav a {
+    margin-left: 30px;
+    color: #aaa;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #f6b73c;
+}
+
+/* HERO */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 80px;
+    align-items: center;
+}
+
+.hero-left h1 {
+    font-size: 52px;
+}
+
+.hero-left h1 span {
+    color: #f6b73c;
+}
+
+.role {
+    margin-top: 10px;
+    color: #f6b73c;
+}
+
+.location {
+    color: #aaa;
+    margin-bottom: 20px;
+}
+
+.desc {
+    max-width: 400px;
+    color: #aaa;
+    margin-bottom: 25px;
+}
+
+.story-btn {
+    color: #f6b73c;
+    text-decoration: none;
+}
+
+.hero-right img {
+    width: 300px;
+    border-radius: 12px;
+}
+
+/* STATS */
+.stats {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 80px;
+    background: #161821;
+}
+
+.stat h2 {
+    color: #f6b73c;
+    font-size: 32px;
+}
+
+.stat p {
+    color: #aaa;
+}
+
+/* SERVICES */
+.services {
+    display: flex;
+    gap: 30px;
+    padding: 80px;
+    justify-content: center;
+}
+
+.service-card {
+    background: #161821;
+    padding: 30px;
+    width: 250px;
+    border-radius: 12px;
+}
+
+.service-card.active {
+    background: #f6b73c;
+    color: #000;
+}
+
+.service-card p {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+/* CONTACT */
+.contact {
+    text-align: center;
+    padding: 60px;
+}
+
+.contact p {
+    color: #aaa;
+    margin-top: 8px;
+}
+
+/* FOOTER */
+footer {
+    background: #161821;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+}
